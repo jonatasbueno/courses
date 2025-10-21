@@ -23,19 +23,80 @@
     <!-- Define o autor da página. -->
 
     <title>Redesign de Interface do Fogão Acessível | Por Jônatas</title>
+
+    <style>
+      nav a:hover,
+      nav a:focus {
+        background-color: #3498db;
+        outline: 2px solid #fff;
+      }
+    </style>
   </head>
-	<body>
-		<header role="banner">
-        <h1>Redesign de Interface do Fogão Acessível</h1>
-        <!-- A tag <nav> define um bloco de navegação. O "aria-label" descreve o propósito da navegação para leitores de tela. -->
-        <nav aria-label="Navegação principal do site">
-            <ul>
-                <!-- Links âncora que levam o usuário para seções específicas da página. -->
-                <li><a href="#projetista">O Projetista</a></li>
-                <li><a href="#interface">Nova Interface</a></li>
-                <li><a href="#manual">Manual de Uso</a></li>
-            </ul>
-        </nav>
+  <body>
+    <header
+      role="banner"
+      style="
+        background-color: #2c3e50;
+        color: #ecf0f1;
+        padding: 15px 0;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 4px solid #3498db;
+      "
+    >
+      <h1 style="margin-bottom: 10px; font-size: 2em">
+        Redesign de Interface do Fogão Acessível
+      </h1>
+      <!-- A tag <nav> define um bloco de navegação. O "aria-label" descreve o propósito da navegação para leitores de tela. -->
+      <nav aria-label="Navegação principal do site">
+        <ul style="list-style: none; padding: 0">
+          <!-- Links âncora que levam o usuário para seções específicas da página. -->
+          <li style="display: inline; margin: 0 15px">
+            <a
+              href="#projetista"
+              style="
+                color: #ecf0f1;
+                text-decoration: none;
+                font-weight: bold;
+                padding: 5px 10px;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+              "
+              >O Projetista</a
+            >
+          </li>
+          <li style="display: inline; margin: 0 15px">
+            <a
+              href="#interface"
+              style="
+                color: #ecf0f1;
+                text-decoration: none;
+                font-weight: bold;
+                padding: 5px 10px;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+              "
+              >Nova Interface</a
+            >
+          </li>
+          <li style="display: inline; margin: 0 15px">
+            <a
+              href="#manual"
+              style="
+                color: #ecf0f1;
+                text-decoration: none;
+                font-weight: bold;
+                padding: 5px 10px;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+              "
+              >Manual de Uso</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
-	</body>
+  </body>
 </html>
